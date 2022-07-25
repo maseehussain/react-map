@@ -28,7 +28,7 @@ export default class GoogleMaps extends Component {
                     mapContainerStyle={{ height: '100%', width: '100%' }}
                 >
                     {this.state.companies.map(company => {
-                        console.log(company);
+                        // console.log(company);
                         return (
                             <Marker
                                 onClick={this.onMarkerClick}
