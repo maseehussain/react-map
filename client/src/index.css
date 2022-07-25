@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.map-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width:100%
+}
+
+.circle-text {
+  background-color: brown;
+  color: white;
+}
